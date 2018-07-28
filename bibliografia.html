@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Mi sitio web</title>
+		<link href="css/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+	</head>
+	<body>
+		<div class="portada">
+			<header id="header" class="header contenedor">
+				<figure class="logo">
+					<img src="imagenes/logo.png" alt="Logo">
+				</figure>
+				<nav class="menu">
+					<ul>
+						<li>Home</li>
+						<li>Skills</li>
+						<li>Contact</li>
+					</ul>
+				</nav>
+			</header>
+			<section id="portada">
+				<div class="contenedor">
+					<h1 class="titulo">Pablo Ajtún</h1>
+					<h2 class="titulo-a">Talk is cheap, show me the code</h2>
+					<button class="button">Bibliografía</button>
+				</div>
+			</section>
+		</div>
+    <section class="skills contenedor">
+    </section>
+		<footer class="footer">
+				<div class="contenedor">
+						<div class="contacto">
+							<img src="imagenes/logo.png" alt="logo">
+							<a href="tel:+50230617026">
+								<strong>Telefono</strong>
+								<span>+(502) 30617026</span>
+							</a>
+							<a href="mailto:abimaelajtun@gmail.com">
+								<strong>Email</strong>
+								<span>abimaelajtun@gmail.com</span>
+							</a>
+						</div>
+						<form class="formulario">
+							<div class="col1">
+								<label for="nombre">Nombre</label>
+								<input type="text" id="nombre" name="nombre" required/>
+								<label for="email">Email</label>
+								<input type="email" id="email" name="email" required/>
+								<div class="perfil">
+									<label for="junior">
+										<input type="radio" name="perfil" id="junior" value="junior" checked/> Junior
+									</label>
+									<label for="senior">
+										<input type="radio" name="perfil" id="senior" value="junior"/> Senior
+									</label>
+								</div>
+								<div class "intereses">
+									<label for="c#">
+										<input type="checkbox" name="intereses" id="c#" value="c#"/>C#
+									</label>
+									<label for="vb">
+										<input type="checkbox" name="intereses" id="vb" value="vb"/>Visual Basic
+									</label>
+									<label for="java">
+										<input type="checkbox" name="intereses" id="java" value="java"/>Java
+									</label>
+									<label for="sql">
+										<input type="checkbox" name="intereses" id="sql" value="sql"/>SQL
+									</label>
+								</div>
+							</div>
+							<div class="col2">
+								<label for="comentario">Comentarios</label>
+								<textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+								<input type="submit" value="Enviar" class="button"/>
+							</div>
+						</form>
+				</div>
+		</footer>
+	</body>
+</html>
