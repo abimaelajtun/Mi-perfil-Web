@@ -92,10 +92,20 @@ body{
 	position: relative;
 	top: -127px;
 }
+.right2{
+	float: right;
+	position: relative;
+	top: 0px;
+}
 .left{
 	float: left;
 	position: relative;
 	top: 80px;
+}
+.left2{
+	float: left;
+	position: relative;
+	top: 0px;
 }
 .contenedor-skil-a{
 	margin-left: 20px;
